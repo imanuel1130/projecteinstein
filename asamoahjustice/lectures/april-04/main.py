@@ -60,7 +60,7 @@
 
 
 #task 6 (building a calculator)
-#usign while loop to make the program run untill told to stop
+#using while loop to make the program run until told to stop
 
 def calculate():
 
@@ -69,7 +69,7 @@ def calculate():
         c = input('Enter a mathematical operation or stop or end to close the program: ').strip().lower()
 
         if c == 'stop' or c == 'end':
-            break #this stops the lopp if the user types in stop or end
+            break #this stops the loop if the user types in stop or end
 
         #taking inputs from the user
         a = float(input('Enter a number: '))
@@ -104,7 +104,7 @@ calculate()
 #     print(n)
 #     n += 1
 
-#fucntin calling meaow five times
+#function calling meow five times
 # def calling():
 #     call = 0
 #     while call < 5:
