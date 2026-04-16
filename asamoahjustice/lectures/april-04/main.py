@@ -62,41 +62,41 @@
 #task 6 (building a calculator)
 #using while loop to make the program run until told to stop
 
-def calculate():
+# def calculate():
 
-    while True:
+#     while True:
 
-        c = input('Enter a mathematical operation or stop or end to close the program: ').strip().lower()
+#         c = input('Enter a mathematical operation or stop or end to close the program: ').strip().lower()
 
-        if c == 'stop' or c == 'end':
-            break #this stops the loop if the user types in stop or end
+#         if c == 'stop' or c == 'end':
+#             break #this stops the loop if the user types in stop or end
 
-        #taking inputs from the user
-        a = float(input('Enter a number: '))
-        b = float(input('Enter another number: '))
+#         #taking inputs from the user
+#         a = float(input('Enter a number: '))
+#         b = float(input('Enter another number: '))
 
-        if c == 'add' or c == '+':
-            result =  a + b
-            print(f'the results of the operation is: {result}\n') 
+#         if c == 'add' or c == '+':
+#             result =  a + b
+#             print(f'the results of the operation is: {result}\n') 
 
-        elif c == 'sub' or c == '-':
-            print(f'the results of the operation is: {a} - {b}\n') 
+#         elif c == 'sub' or c == '-':
+#             print(f'the results of the operation is: {a} - {b}\n') 
         
-        elif c == 'div' or c == '/':
-            print(f'the results of the operation is: {a} / {b}\n') 
+#         elif c == 'div' or c == '/':
+#             print(f'the results of the operation is: {a} / {b}\n') 
         
-        elif c == 'mult' or c == '*':
-            print(f'the results of the operation is: {a} * {b}\n') 
+#         elif c == 'mult' or c == '*':
+#             print(f'the results of the operation is: {a} * {b}\n') 
         
-        else:
-            print('please enter either add, sub, div, or mult\n') 
+#         else:
+#             print('please enter either add, sub, div, or mult\n') 
 
         
         
 
     
 #calling the function 
-calculate()
+# calculate()
 
 #task 7
 # n = 0
@@ -111,3 +111,9 @@ calculate()
 #         print('meow')
 #         call += 1
 # calling()
+
+import calendar
+call = calendar.TextCalendar()
+print(call.pryear(2026))
+
+input("Press Enter to exit...")
